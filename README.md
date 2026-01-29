@@ -73,11 +73,13 @@ Inspired by:
 - sci-fi UI dashboards
 - cyberpunk visual systems
 - modern startup landing pages
-- with a focus on immersive storytelling rather than static layouts.
+
+with a focus on immersive storytelling rather than static layouts.
 
 ---
 
 ## 👩‍💻 Author
 
 Paramita Ghosh
-Frontend Developer | UI Motion Designer
+
+---
