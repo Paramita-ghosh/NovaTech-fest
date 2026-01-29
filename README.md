@@ -1,16 +1,72 @@
-# React + Vite
+# ⚡ NovaTech Nexus 2026 — Futuristic Tech Fest Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Live Demo: https://nova-tech-nexus.vercel.app/
 
-Currently, two official plugins are available:
+An immersive, cinematic, cyber-themed event website built with modern frontend technologies, designed to simulate a futuristic tech festival experience with smooth animations, 3D visuals, and story-driven UI interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Project Vision
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+NovaTech Nexus is a high-energy digital experience inspired by next-gen tech conferences and hackathons.  
+It blends:
 
-## Expanding the ESLint configuration
+✨ cinematic UI storytelling  
+🎬 scroll-based animations  
+🌌 3D interactive backgrounds  
+⚡ premium micro-interactions  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+to create a visually rich and modern event landing page.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React + Vite
+
+### Animations
+- GSAP (ScrollTrigger)
+- Custom animation hooks
+
+### 3D Graphics
+- Three.js particle systems
+
+### Styling
+- Tailwind CSS
+- Custom cyber-themed effects
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Key Features
+
+✅ Animated Hero Section with 3D particle background  
+✅ Story-driven About section with scroll reveals  
+✅ Interactive futuristic event tracks  
+✅ Cinematic timeline storytelling  
+✅ Speaker showcase with glassmorphism UI  
+✅ Live system clock footer  
+✅ Custom cyber cursor & hover effects  
+✅ Fully responsive design  
+✅ Performance optimized  
+
+---
+
+## 🎥 UI Experience Highlights
+
+- Smooth GSAP scroll animations  
+- Neon glow cyber aesthetic  
+- Holographic hover cards  
+- Terminal-style microcopy  
+- Grid + scanline effects  
+- Parallax depth motion  
+
+---
+
+## 👩‍💻 Author
+
+Paramita Ghosh
+Frontend Developer | UI Motion Designer
