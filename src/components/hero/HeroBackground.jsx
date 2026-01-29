@@ -14,7 +14,7 @@ export default function HeroBackground() {
     mount.current.appendChild(renderer.domElement)
 
     const geo = new THREE.BufferGeometry()
-    const count = 3000 // Increased count for richness
+    const count = 3000 
     const pos = new Float32Array(count * 3)
 
     for (let i = 0; i < pos.length; i++) {
@@ -23,7 +23,6 @@ export default function HeroBackground() {
 
     geo.setAttribute("position", new THREE.BufferAttribute(pos, 3))
     
-    // Use a texture for circular points if possible, otherwise keep size small
     const mat = new THREE.PointsMaterial({
       color: 0x00f5ff,
       size: 0.05,
@@ -41,8 +40,6 @@ export default function HeroBackground() {
       frame = requestAnimationFrame(animate)
       mesh.rotation.y += 0.0005
       mesh.rotation.x += 0.0002
-      
-      // Gentle floating motion
       mesh.position.y = Math.sin(frame * 0.001) * 0.5
       
       renderer.render(scene, cam)
