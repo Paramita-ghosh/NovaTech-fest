@@ -1,0 +1,23 @@
+.custom-cursor{
+  width:18px;
+  height:18px;
+  border:2px solid var(--neon);
+  border-radius:50%;
+  position:fixed;
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  mix-blend-mode:screen;
+  transition:transform .08s ease;
+}
+
+.custom-cursor::after{
+  content:'';
+  width:6px;
+  height:6px;
+  background:var(--neon);
+  border-radius:50%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}

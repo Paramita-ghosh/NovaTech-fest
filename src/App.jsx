@@ -1,11 +1,21 @@
-import { useState } from 'react'
+import Hero from "./components/hero/Hero"
+import About from "./components/about/About"
+import Tracks from "./components/tracks/Tracks"
+import Timeline from "./components/timeline/Timeline"
+import Speakers from "./components/speakers/Speakers"
+import Footer from "./components/footer/Footer"
+import Cursor from "./ui/Cursor"
 
-function App() {
-  return (
+export default function App(){
+  return(
     <>
-      <p class="text-blue-600">This text is blue.</p>
+      <Cursor/>
+      <Hero/>
+      <About/>
+      <Tracks/>
+      <Timeline/>
+      <Speakers/>
+      <Footer/>
     </>
   )
 }
-
-export default App

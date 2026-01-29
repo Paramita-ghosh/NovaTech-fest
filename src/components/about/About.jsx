@@ -32,7 +32,7 @@ useEffect(() => {
           </h2>
 
           <p className="text-zinc-400 text-lg md:text-xl leading-relaxed max-w-xl font-light">
-            NovaTech Fest isn't just a hackathon; it's a <span className="text-white font-medium">high-velocity forge</span>. We unite 500+ digital architects for 48 hours of pure creation, pushing the boundaries of Web3, AI, and Spatial Computing.
+            NovaTech Nexus isn't just a hackathon; it's a <span className="text-white font-medium">high-velocity forge</span>. We unite 500+ digital architects for 48 hours of pure creation, pushing the boundaries of Web3, AI, and Spatial Computing.
           </p>
 
           <div className="flex gap-8 border-t border-zinc-800 pt-8">
@@ -61,7 +61,6 @@ useEffect(() => {
                   <div className="h-1 w-12 bg-cyan-500" />
                   <div className="h-1 w-6 bg-cyan-800" />
                 </div>
-                <span className="font-mono text-xs text-zinc-600 uppercase tracking-tighter">Secure_Access//01</span>
              </div>
              
              <ul className="space-y-6">

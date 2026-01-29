@@ -45,7 +45,7 @@ export default function Speakers() {
   }, [])
 
   return (
-    <section id="speakers" ref={sectionRef} className="py-40 px-6 bg-[#020617] relative overflow-hidden">
+    <section id="speakers" ref={sectionRef} className="py-30 px-6 bg-[#020617] relative overflow-hidden">
       <div className="absolute left-10 top-1/2 -rotate-90 origin-left hidden xl:block pointer-events-none">
         <span className="text-zinc-800 font-mono text-xs tracking-[1em] uppercase">Architecture.Leadership.Future</span>
       </div>
