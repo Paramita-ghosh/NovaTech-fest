@@ -6,7 +6,6 @@ gsap.registerPlugin(ScrollTrigger)
 export const timelineReveal = (section, list) => {
   let ctx = gsap.context(() => {
     
-    // 1. Line Progress Animation: Ties scaleY to scroll
     gsap.to(".timeline-progress", {
       scaleY: 1,
       ease: "none",
@@ -18,7 +17,6 @@ export const timelineReveal = (section, list) => {
       }
     })
 
-    // 2. Individual Item Reveal
     const items = list.querySelectorAll(':scope > div');
     items.forEach((item) => {
       gsap.from(item, {

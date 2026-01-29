@@ -3,12 +3,33 @@ import { timelineReveal } from "./timelineAnimations"
 import TimelineItem from "./TimelineItem"
 
 const timelineData = [
-  { time: "Day 1 – 10:00 AM", title: "Opening Ceremony", sub: "Grand Hall A / Livestream" },
-  { time: "Day 1 – 12:00 PM", title: "Hackathon Begins", sub: "System.Initialize()" },
-  { time: "Day 2 – 10:00 AM", title: "Mentorship Sessions", sub: "1-on-1 with industry leads" },
-  { time: "Day 2 – 06:00 PM", title: "Final Pitch", sub: "Submission Deadline: 05:59 PM" },
-  { time: "Day 2 – 08:00 PM", title: "Awards & Closing", sub: "Winners Announcement" }
+  { 
+    time: "Day 1 — 10:00 AM", 
+    title: "Nexus Launch Protocol", 
+    sub: "Opening Ceremony • Vision keynote + holographic reveal" 
+  },
+  { 
+    time: "Day 1 — 12:00 PM", 
+    title: "Code Genesis Phase", 
+    sub: "Hackathon systems go live • Innovation unlocked" 
+  },
+  { 
+    time: "Day 2 — 10:00 AM", 
+    title: "Neural Sync Mentorship", 
+    sub: "Live problem-solving with AI leaders & founders" 
+  },
+  { 
+    time: "Day 2 — 06:00 PM", 
+    title: "Final Transmission", 
+    sub: "Project upload window closes • Judging begins" 
+  },
+  { 
+    time: "Day 2 — 08:00 PM", 
+    title: "Ascension Ceremony", 
+    sub: "Awards, funding offers & future roadmap reveal" 
+  }
 ]
+
 
 export default function Timeline() {
   const sectionRef = useRef()
@@ -20,7 +41,7 @@ export default function Timeline() {
   }, [])
 
   return (
-    <section id="event-timeline" ref={sectionRef} className="relative py-40 px-6 bg-[#020617] overflow-hidden">
+    <section id="event-timeline" ref={sectionRef} className="relative py-20 px-6 bg-[#020617] overflow-hidden">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-24">
           <h2 className="text-5xl md:text-7xl font-black text-white italic tracking-tighter uppercase">
@@ -30,7 +51,6 @@ export default function Timeline() {
         </div>
 
         <div className="relative">
-          {/* THE PROGRESS LINE: Draws on scroll */}
           <div className="absolute left-[15px] md:left-1/2 top-0 bottom-0 w-[2px] bg-zinc-900 -translate-x-1/2 overflow-hidden">
              <div className="timeline-progress w-full h-full bg-gradient-to-b from-cyan-500 via-blue-500 to-purple-600 origin-top scale-y-0" />
           </div>
